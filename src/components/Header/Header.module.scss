@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Floripa';
+  src: url(../../fonts/Floripa.woff);
+}
+
+.root {
+  background-color: #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 30px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  background-color: black;
+  color: #fff;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 0.15px;
+  border-radius: 100px;
+  padding: 0 10px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #5737FC;
+  }
+}
+
+.buttons {
+  button {
+    margin-left: 10px;
+    border-radius: 100px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.logo_link {
+  margin-top: 8px;
+}
+
+.header_text {
+ color: #5737FC;
+}
+
+.header_text_error {
+  background: #FF3922;
+ }
+
+.button_header_text {
+  background: #5737FC;
+}

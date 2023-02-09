@@ -1,0 +1,83 @@
+.h1 {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+::selection {
+    background: #FF3922; /* Цвет фона */
+    color: white;
+   }
+
+   .MainImgRotate {
+    margin-top:20px;
+     -webkit-animation-name: rotation;
+     -webkit-animation-duration: 120s;
+     -webkit-animation-iteration-count: infinite;
+     -webkit-animation-timing-function: linear;
+     -moz-animation-name: rotation;
+     -moz-animation-duration: 120s;
+     -moz-animation-iteration-count: infinite;
+     -moz-animation-timing-function: linear;
+     -o-animation-name: rotation;
+     -o-animation-duration: 120s;
+     -o-animation-iteration-count: infinite;
+     -o-animation-timing-function: linear;
+     animation-name: rotation;
+     animation-duration: 120s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+ }
+  
+ @-webkit-keyframes rotation {
+     0% {-webkit-transform:rotate(0deg);
+         -moz-transform:rotate(0deg);
+         -o-transform:rotate(0deg);
+         transform:rotate(0deg);}
+     100% {-webkit-transform:rotate(360deg);
+         -moz-transform:rotate(360deg);
+         -o-transform:rotate(360deg);
+         transform:rotate(360deg);}
+ }
+ @-moz-keyframes rotation {
+     0% {-webkit-transform:rotate(0deg);
+         -moz-transform:rotate(0deg);
+         -o-transform:rotate(0deg);
+         transform:rotate(0deg);}
+     100% {-webkit-transform:rotate(360deg);
+         -moz-transform:rotate(360deg);
+         -o-transform:rotate(360deg);
+         transform:rotate(360deg);}
+ }
+ @-o-keyframes rotation {
+     0% {-webkit-transform:rotate(0deg);
+         -moz-transform:rotate(0deg);
+         -o-transform:rotate(0deg);
+         transform:rotate(0deg);}
+     100% {-webkit-transform:rotate(360deg);
+         -moz-transform:rotate(360deg);
+         -o-transform:rotate(360deg);
+         transform:rotate(360deg);}
+ }
+ @keyframes rotation {
+     0% {-webkit-transform:rotate(0deg);
+         -moz-transform:rotate(0deg);
+         -o-transform:rotate(0deg);
+         transform:rotate(0deg);}
+     100% {-webkit-transform:rotate(360deg);
+         -moz-transform:rotate(720deg);
+         -o-transform:rotate(360deg);
+         transform:rotate(360deg);}
+ }
+
+
+.MainButton {
+    border-radius: 100px;
+    width: 15em;
+    height: 3em;
+    font-size: 1.5em;
+    margin-top: 250px;
+    margin-left: 300px;
+}
